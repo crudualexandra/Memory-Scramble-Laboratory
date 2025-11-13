@@ -399,6 +399,7 @@ Tested scenarios:
 ✅ Web UI "update by watching" mode functional
 
 ---
+```bash
     const b = await Board.parseFromFile("boards/perfect.txt");
     b.flipFirst({ r: 0, c: 0 }, "alice");
 
